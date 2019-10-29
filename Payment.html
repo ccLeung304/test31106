@@ -1,0 +1,75 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+ <title>QPay</title>
+ <link rel="stylesheet" type="text/css" href="main2.css" />
+ 
+<script src="script.js"></script>
+<script src="sweetalert.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+<script type="text/javascript" src="jquery.qrcode.js"></script>
+<script type="text/javascript" src="qrcode.js"></script>
+
+</head>
+<body> 
+
+<script type="text/javascript">
+
+
+ 
+ </script>
+<div id="header">
+<h5>QPay Wallet</h5></div>
+<div id="header2">
+<h1 class="title2">QPay</h1>
+<p class="detail">QPay是QuickBank提供的在線支付服務,QCoin是其使用的貨幣單位</p>
+</div>
+
+<div class="card block1">
+<p class="title1">帳戶資訊</p>
+<div class=blk_small>
+<small class="smallC">QCoin</small>
+<ul>
+<li>Accout ID:</li>
+
+</ul>
+</div>
+</div>
+
+
+<div id="qrcode"></div>
+
+
+
+<div class="block2">
+<div>
+<h5 class="header5">帳户操作</h5>
+</div>
+<div class="action">
+<button type="button" id="btn4" onclick="on_transfer()" class="blue_btn" 
+onmouseover="this.style.backgroundColor='#84b8cb';return true;" 
+onmouseout="this.style.backgroundColor='#60a3bc';return true;">轉賬</button>
+
+<button type="button" id="btn1" onclick="on_scan()" class="white_btn"
+onmouseover="this.style.backgroundColor='#C0C0C0';return true;" 
+onmouseout="this.style.backgroundColor='#DCDCDC';return true;"><img src="icon_1.jpg" width="15" height="20">Scan</button>
+
+<button type="button" id="btn2" onclick="on_pay()" class="white_btn"
+onmouseover="this.style.backgroundColor='#C0C0C0';return true;" 
+onmouseout="this.style.backgroundColor='#DCDCDC';return true;">付款</button>
+
+<button type="button" id="btn3" onclick="on_receive()" class="white_btn"
+onmouseover="this.style.backgroundColor='#C0C0C0';return true;" 
+onmouseout="this.style.backgroundColor='#DCDCDC';return true;">收款</button>
+
+</div>
+
+</div>
+
+</body>
+
+
+</html>

@@ -1,0 +1,59 @@
+<html>
+<head>
+ <title>QPay</title>
+ <link rel="stylesheet" type="text/css" href="main2.css" />
+ 
+<script src="script.js"></script>
+<script type="text/javascript" src="instancan.main.js"></script>
+</head>
+<body> 
+
+<Script type="text/javascript">
+
+ function on_receive(){
+ var click;
+ if(click==True){
+ alert("error!This function still not finished!");} 
+
+ /*Swal.fire({
+ type:'error',
+ title:'Oops...'});*/
+ }
+ 
+ </script>
+<div id="header">
+<h5>QPay Wallet</h5></div>
+<div id="header2">
+<h1 class="title2">QPay</h1>
+<p class="detail">QPay是QuickBank提供的在線支付服務,QCoin是其使用的貨幣單位</p>
+</div>
+
+<div class="card block1">
+<p class="title1">帳戶資訊</p>
+<div class=blk_small>
+<small class="smallC">QCoin</small>
+<ul>
+<li>Accout ID:</li>
+
+</ul>
+</div>
+</div>
+
+<div class="block2">
+<div>
+<h5 class="header5">帳户操作</h5>
+</div>
+<div class="action">
+<button type="button" id="btn4" onclick="on_transfer()" class="blue_btn" >轉帳</button>
+<button type="button" id="btn1" onclick="on_scan()" class="white_btn"><img src="icon_1.jpg" width="15" height="20">Scan</button>
+<button type="button" id="btn2" onclick="on_pay()" class="white_btn">付款</button>
+<button type="button" id="btn3" onclick="on_receive()" class="white_btn">收款</button>
+
+</div>
+
+</div>
+
+</body>
+
+
+</html>
