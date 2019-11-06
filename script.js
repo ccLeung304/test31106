@@ -19,12 +19,7 @@ function on_pay(){
 }
 	
 function on_scan(){
-	swal({
-  title: "Error!",
-  text: "This function still on it's way to finish!",
-  type: "error",
-  confirmButtonText: "I see!"
-});
+	window.location.href = "Scan.html";
 }
 
 function on_transfer(){

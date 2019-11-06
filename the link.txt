@@ -12,3 +12,11 @@ https://github.com/jeromeetienne/jquery-qrcode/blob/master/examples/basic.html
 https://github.com/nimiq/qr-scanner
 
 https://github.com/schmich/instascan
+
+
+upload website on github(youtube)
+https://www.youtube.com/watch?v=8hrJ4oN1u_8
+
+
+QR_code scan (1)
+https://nimiq.github.io/qr-scanner/demo/

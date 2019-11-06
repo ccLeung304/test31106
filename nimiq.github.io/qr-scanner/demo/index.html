@@ -1,13 +1,28 @@
-
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+
+<!-- Mirrored from nimiq.github.io/qr-scanner/demo/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 30 Oct 2019 04:13:12 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
 <head>
     <meta charset="UTF-8">
-    <title>QR Scanner</title>
-	<script src="scan.js"></script>
+    <title>QR Scanner Demo</title>
 </head>
 <body>
-
+<style>
+    canvas {
+        display: none;
+    }
+    hr {
+        margin-top: 32px;
+    }
+    input[type="file"] {
+        display: block;
+        margin-bottom: 16px;
+    }
+    div {
+        margin-bottom: 16px;
+    }
+</style>
 <h1>Scan from WebCam:</h1>
 <div>
     <b>Device has camera: </b>
@@ -36,8 +51,8 @@
 <span id="file-qr-result">None</span>
 
 <script type="module">
-    import * as QrScanner from "./qr-scanner.min.js";
-    QrScanner.WORKER_PATH = 'qr-scanner-worker.min.js';
+    import QrScanner from "../qr-scanner.min.js";
+    QrScanner.WORKER_PATH = '../qr-scanner-worker.min.js';
 
     const video = document.getElementById('qr-video');
     const camHasCamera = document.getElementById('cam-has-camera');
@@ -79,4 +94,6 @@
 
 </script>
 </body>
+
+<!-- Mirrored from nimiq.github.io/qr-scanner/demo/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 30 Oct 2019 04:13:12 GMT -->
 </html>
